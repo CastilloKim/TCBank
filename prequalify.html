@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prequalify for Financing</title>
+    <link rel="stylesheet" type="text/css" href="css/prequalify.css">
+    <script src="js/prequalify.js"></script>
+</head>
+<body>
+    <h1>Prequalify for Financing</h1>
+    <form id="prequalify_form" name="prequalify_form" method="get">
+        <label for="email_1">Email Address:</label>
+            <input type="text" id="email_1" name="email_1">
+            <span id="email_1_error">*</span><br>
+
+        <label for="email_2">Re-enter Email Address:</label>
+            <input type="text" id="email_2" name="email_2">
+            <span id="email_2_error">*</span><br>
+
+        <label for="first_name"> First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <span id="first_name_error">*</span><br>
+
+        <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <span id="last_name_error">*</span><br>
+    
+        <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <span id="city_error">*</span><br>
+    
+        <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <span id="state_error">*</span><br>
+
+        <label for="zip">ZIP Code:</label>
+            <input type="text" id="zip" name="zip">
+            <span id="zip_error">*</span><br>
+    
+        <label for="income">Gross Income:</label>
+            <input type="text" id="income" name="income">
+            <span id="income_error">*</span><br>
+    
+        <label for="ssn">Last 4 digits of SSN:</label>
+            <input type="text" id="ssn" name="ssn">
+            <span id="ssn_error">*</span><br><br>
+
+        <div>
+        <input type="checkbox" id="agreement" name="agreement" value="agreement">
+            This prequalification request serves as my written instruction to
+            Titan Community Bank to obtain a “soft inquiry” about my credit information,
+            which won't affect my credit score. I agree that TCB can send me an email confirming my request.<br><br>
+
+        <input type="button" id="apply" value="Apply">
+        <input type="button" onclick="resetForm()" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

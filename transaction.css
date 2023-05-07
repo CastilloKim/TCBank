@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+    padding: 8pt;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 1000px;
+    border: 3px solid #1b1f24;
+    padding: 0 2em 1em;
+}
+
+h1 {
+    font-size: 35pt;
+}
+nav {
+    font-size: 15pt;
+    color: black;
+    padding: 20pt;
+}
+
+nav a:link, nav a:visited{
+    color: #1b1f24;
+}
+
+footer {
+    padding-top: 2.5em;
+}

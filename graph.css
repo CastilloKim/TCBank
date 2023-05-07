@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 1000px;
+    border: 3px solid #1b1f24;
+    padding: 0 2em 1em;
+    margin-top: 8pt;
+    margin-bottom: 100pt;
+}
+
+h1 {
+    font-size: 35pt;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 8pt;
+}
+
+.container {
+  padding: 30px;
+  width: 96%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.graph-container {
+  position: relative;
+  height: 400;
+  width: 500;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+.bar {
+  position: relative;
+  width: 20px;
+  transition: height ease-out 0.5s;
+}
+
+.xtick {
+  height: 10px;
+  width: 1px;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.ytick {
+  width: 10px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  left: -10px;
+}
+
+.ytext {
+  position: absolute;
+  top: -9px;
+  transform: translateX(calc(-100% - 5px));
+}
+
+.xtext {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 15px;
+}
